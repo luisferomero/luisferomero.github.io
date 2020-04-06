@@ -4,27 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Luis Romero Portfolio</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" /> -->
     <link rel="stylesheet" href="./styles/global.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
   </head>
   <body>
     <header>
       <nav>
-        <a href="#" id="menu" class="menu">Menu</a>
-        <div class="linnk">
-          <!-- <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a> -->
-        </div>
+        <a href="#" id="menu" class="menu-link" title="Home">Home</a>
+        <a href="#skills" id="menu" class="menu-link" title="Skills">Skills</a>
+        <a href="#" id="menu" class="menu-link" title="Project">Pojects</a>
+        <a href="#" id="menu" class="menu-link" title="Certifications">Certifications</a>
+        <a href="#" id="menu" class="menu-link" title="About me">About me</a>
       </nav>
      <div class="container">
-        <div class="textos">
+        <div class="titles">
             <h1>Luis Romero</h1>
-            <h2>Hacemos la Web ideal para ti</h2>
-            <a href="#">Contacto</a>
+            <h2>Full-stack Software developer</h2>
+            <div class="brands-container">
+              <a href="https://www.linkedin.com/in/luis-felipe-romero/" target="blank">
+                <i class="fab fa-linkedin font-awesome"></i>
+              </a>
+              <a href="https://github.com/luisferomero" target="blank">
+                <i class="fab fa-github font-awesome"></i>
+              </a>
+              <a href="#">
+                <i class="fas fa-file-alt font-awesome"></i>
+              </a>
+            </div>
           </div>
         <img src="./assets/svg/undraw_web_developer_p3e5.svg">
      </div>
@@ -36,5 +49,27 @@
         </svg>
       </div>
     </div>
+    <main>
+      <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="logos">
+          <img src="./assets/img/html_logo.png" alt="Html">
+          <img src="./assets/img/css3_logo.png" alt="Css">
+          <img src="./assets/img/1200px-Unofficial_JavaScript_logo_2.svg.png" alt="JavaScript">
+          <img src="./assets/img/typescript_logo.svg" alt="TypeScript">
+          <img src="./assets/img/angular_logo.png" alt="Angular">
+          <img src="./assets/img/vue_logo.png" alt="Vue">
+          <img src="./assets/img/csharp_logo.png" alt="CSharp">
+          <img src="./assets/img/dotnet_logo.svg" alt="Tot net core">
+          <img src="./assets/img/firebase_logo.png" alt="Firebase">
+          <img src="./assets/img/sqlserver_logo.svg" alt="Sql Server">
+          <img src="./assets/img/ionic_logo.png" alt="Ionic">
+          <img src="./assets/img/adobeXd_logo.png" alt="Adobe XD">
+          <img src="./assets/img/git_logo.png" alt="Git">
+          <img src="./assets/img/jira_logo.svg" alt="Jira">
+          <img src="./assets/img/azure_logo.png" alt="Azure">
+        </div>
+      </section>
+    </main>
   </body>
 </html>

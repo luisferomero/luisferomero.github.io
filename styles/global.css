@@ -1,3 +1,5 @@
+@import "animate.css";
+
 * {
   margin: 0;
   padding: 0;
@@ -6,28 +8,36 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  overflow: hidden;
 }
 
 nav {
     position: fixed;
     top: 20px;
     left: 20px;
-
+    margin-left: 5vw;;
 }
 
 nav a {
     color: #fff;
     text-decoration: none;
-    display: inline-block;
-    animation: moverIzquierda 1s ease-in;
+    animation: moveLeftToRight 1s ease-in;
+}
+
+nav a:hover{
+    text-shadow: 0 0 15px #FFFFFF;
+}
+
+nav { 
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
 }
 
 header {
     background: #00d2ff;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding: 48px;
+    padding: 48px 0;
     width: 100%;
 }
 
@@ -35,34 +45,35 @@ img{
     display: block;
     height: 450px;
     object-fit: cover;
-    animation: moverArriba 1s ease-in;
+    animation: moveBottomToUp 1s ease-in;
 }
 
 .container {
     width: 95%;
     max-width: 1200px;
     display: flex;
+    justify-content: space-around;
     align-items: center;
     margin: auto;
-    justify-content: space-around;
+
 }
 
-.textos {
+.titles {
     width: 50%;
     color: #fff;
 }
 
-.textos h1{
+.titles h1{
     font-size: 80px;
-    animation: moverDerecha 1s ease-in;
+    animation: moveRightToleft 1s ease-in;
 }
 
-.textos h2{
+.titles h2{
     font-size: 30px;
-    animation: moverIzquierda 1s ease-in;
+    animation: moveLeftToRight 1s ease-in;
 }
 
-.textos a{
+.contact-btn{
     display: inline-block;
     color: #fff;
     font-weight: 300;
@@ -73,13 +84,29 @@ img{
     width: 150px;
     text-align: center;
     padding: 10px 0;
-    animation: moverArriba 1s ease-in;
-
+    animation: moveBottomToUp 1s ease-in;
 }
 
-.textos a:hover{
+.contact-btn:hover{
     color: #3a7bd5;
     background-color: #fff;
+}
+
+.font-awesome{
+    font-size: 3em;
+    color: #fff;
+}
+
+.font-awesome:hover{
+    animation: pulse 0.5s; 
+}
+
+.brands-container{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 40px;
+    animation: moveBottomToUp 1s ease-in;
 }
 
 .wave {
@@ -90,7 +117,32 @@ img{
     background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-@keyframes moverIzquierda {
+.skills{
+    max-width: 1200px;
+    margin: 10vh auto 0 auto;
+}
+
+.skills h2{
+    font-size: 45px;
+}
+
+.logos {
+    margin: 5vh 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+
+.logos img {
+    object-fit: contain;
+    width:100px;
+    height:100px;
+    margin: 50px;
+}
+
+
+/* KEYFRAMES / ANIMATIONS */
+@keyframes moveLeftToRight {
     0% {
         opacity: 0;
         transform: translateX(-100px);
@@ -101,7 +153,7 @@ img{
     }
 }
 
-@keyframes moverDerecha {
+@keyframes moveRightToleft {
     0% {
         opacity: 0;
         transform: translateX(100px);
@@ -112,7 +164,7 @@ img{
     }
 }
 
-@keyframes moverArriba {
+@keyframes moveBottomToUp {
     0% {
         opacity: 0;
         transform: translateY(100px);
@@ -123,7 +175,7 @@ img{
     }
 }
 
-@keyframes moverAbajo {
+@keyframes moveUpToBottom {
     0% {
         opacity: 0;
         transform: translateY(-100px);
@@ -134,3 +186,19 @@ img{
     }
 }
 
+
+/* MEDIA QUERYS BREAK POINTS */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
