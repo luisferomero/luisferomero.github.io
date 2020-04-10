@@ -4,72 +4,506 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Luis Romero Portfolio</title>
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" /> -->
-    <link rel="stylesheet" href="./styles/global.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./assets/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./assets/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./assets/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./assets/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./assets/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./assets/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./assets/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./assets/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./assets/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script> -->
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
   </head>
   <body>
-    <header>
+    <header class="">
       <nav>
-        <a href="#" id="menu" class="menu-link" title="Home">Home</a>
-        <a href="#skills" id="menu" class="menu-link" title="Skills">Skills</a>
-        <a href="#" id="menu" class="menu-link" title="Project">Pojects</a>
-        <a href="#" id="menu" class="menu-link" title="Certifications">Certifications</a>
-        <a href="#" id="menu" class="menu-link" title="About me">About me</a>
+        <div class="nav-links">
+          <a href="#" id="menu" class="menu-link" title="Home"> Home </a>
+          <a href="#skills" id="menu" class="menu-link" title="Skills">
+            Skills
+          </a>
+          <a href="#projects" id="menu" class="menu-link" title="Project">
+            Pojects
+          </a>
+          <a href="#about" id="menu" class="menu-link" title="About me">
+            About me
+          </a>
+          <a
+            href="#contact"
+            id="menu"
+            class="menu-link call-to-action-menu-link"
+            title="About me"
+          >
+            Contact me!
+          </a>
+        </div>
       </nav>
-     <div class="container">
+      <div class="header-container">
         <div class="titles">
-            <h1>Luis Romero</h1>
-            <h2>Full-stack Software developer</h2>
-            <div class="brands-container">
-              <a href="https://www.linkedin.com/in/luis-felipe-romero/" target="blank">
-                <i class="fab fa-linkedin font-awesome"></i>
-              </a>
-              <a href="https://github.com/luisferomero" target="blank">
-                <i class="fab fa-github font-awesome"></i>
-              </a>
-              <a href="#">
-                <i class="fas fa-file-alt font-awesome"></i>
-              </a>
-            </div>
+          <h1>Luis Romero</h1>
+          <h2>Full-stack Software developer</h2>
+          <div class="brands-container">
+            <a
+              href="https://www.linkedin.com/in/luis-felipe-romero/"
+              target="blank"
+              title="LinkedIn"
+            >
+              <i class="fab fa-linkedin font-awesome"></i>
+            </a>
+            <a
+              href="https://github.com/luisferomero"
+              target="blank"
+              title="Git Hub"
+            >
+              <i class="fab fa-github font-awesome"></i>
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1n4JG6WOs7ZHruusBnR5oG4blEeYnkoEs/view?usp=sharing"
+              target="blank"
+              title="Resume"
+            >
+              <i class="fas fa-file-alt font-awesome"></i>
+            </a>
           </div>
-        <img src="./assets/svg/undraw_web_developer_p3e5.svg">
-     </div>
+        </div>
+        <img
+          class="header-img"
+          src="./assets/svg/undraw_web_developer_p3e5.svg"
+        />
+      </div>
     </header>
-    <div class="wave">
-      <div style="height: 150px; overflow: hidden;" >
-        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
-          <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path>
+
+    <div class="wave-container">
+      <div style="height: 150px; overflow: hidden;">
+        <svg
+          viewBox="0 0 500 150"
+          preserveAspectRatio="none"
+          style="height: 100%; width: 100%;"
+        >
+          <path
+            d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+            style="stroke: none; fill: #fff;"
+          ></path>
         </svg>
       </div>
     </div>
+
     <main>
-      <section id="skills" class="skills">
-        <h2>Skills</h2>
-        <div class="logos">
-          <img src="./assets/img/html_logo.png" alt="Html">
-          <img src="./assets/img/css3_logo.png" alt="Css">
-          <img src="./assets/img/1200px-Unofficial_JavaScript_logo_2.svg.png" alt="JavaScript">
-          <img src="./assets/img/typescript_logo.svg" alt="TypeScript">
-          <img src="./assets/img/angular_logo.png" alt="Angular">
-          <img src="./assets/img/vue_logo.png" alt="Vue">
-          <img src="./assets/img/csharp_logo.png" alt="CSharp">
-          <img src="./assets/img/dotnet_logo.svg" alt="Tot net core">
-          <img src="./assets/img/firebase_logo.png" alt="Firebase">
-          <img src="./assets/img/sqlserver_logo.svg" alt="Sql Server">
-          <img src="./assets/img/ionic_logo.png" alt="Ionic">
-          <img src="./assets/img/adobeXd_logo.png" alt="Adobe XD">
-          <img src="./assets/img/git_logo.png" alt="Git">
-          <img src="./assets/img/jira_logo.svg" alt="Jira">
-          <img src="./assets/img/azure_logo.png" alt="Azure">
+      <section id="skills" class="skills mx-auto">
+        <div class="ml-5 pl-5">
+          <h2>Skills</h2>
+          <div class="logos">
+            <img src="./assets/img/html_logo.png" alt="HTML" title="HTML" />
+            <img src="./assets/img/css3_logo.png" alt="CSS" title="CSS" />
+            <img
+              src="./assets/img/1200px-Unofficial_JavaScript_logo_2.svg.png"
+              alt="JavaScript"
+              title="JavaScript"
+            />
+            <img
+              src="./assets/img/typescript_logo.svg"
+              alt="TypeScript"
+              title="TypeScript"
+            />
+            <img src="./assets/img/react_logo.svg" alt="React" title="React" />
+            <img
+              src="./assets/img/angular_logo.png"
+              alt="Angular"
+              title="Angular"
+            />
+            <img src="./assets/img/vue_logo.png" alt="Vue" title="Vue" />
+            <img src="./assets/img/csharp_logo.png" alt="C#" title="C#" />
+            <img
+              src="./assets/img/dotnet_logo.svg"
+              alt="ASP .net Core"
+              title="ASP .net Core"
+            />
+            <img
+              src="./assets/img/sqlserver_logo.svg"
+              alt="Sql Server"
+              title="SQL"
+            />
+            <img
+              src="./assets/img/firebase_logo2.png"
+              alt="Firebase"
+              title="Firebase"
+            />
+            <img src="./assets/img/ionic_logo2.png" alt="Ionic" title="Ionic" />
+            <img
+              src="./assets/img/adobeXd_logo.png"
+              alt="Adobe XD"
+              title="Adobe Xd"
+            />
+            <img src="./assets/img/git_logo.png" alt="Git" title="Git" />
+            <img src="./assets/img/jira_logo.svg" alt="Jira" title="Jira" />
+          </div>
+        </div>
+      </section>
+
+      <div class="wave-container2">
+        <div style="height: 150px; overflow: hidden;">
+          <svg
+            viewBox="0 0 500 150"
+            preserveAspectRatio="none"
+            style="height: 100%; width: 100%;"
+          >
+            <path
+              d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+              style="stroke: none; fill: #0099ff;"
+            ></path>
+          </svg>
+        </div>
+      </div>
+
+      <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="d-flex flex-column mt-4 ml-5">
+          <div class="project d-flex my-5">
+            <img
+              src="./assets/gif/movie-flex.gif"
+              alt="poject"
+              width="500px"
+              class="shadow"
+            />
+            <div class="project-content d-flex flex-column ml-5">
+              <h2>Project Title</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                exercitationem debitis maxime aut officiis voluptatem velit ab
+                corporis, sit dolorum rerum, doloremque omnis qui, deleniti
+                accusantium laborum veritatis beatae a!
+              </p>
+              <div class="mt-2">
+                <h4>Builded With:</h4>
+                <ul class="list-inline mt-2">
+                  <li class="list-inline-item">&bull; <b>React</b></li>
+                  <li class="list-inline-item">&bull; <b>Node Js</b></li>
+                  <li class="list-inline-item">&bull; <b>Bootstrap</b></li>
+                  <li class="list-inline-item">
+                    &bull; <b>Managed with Trello</b>
+                  </li>
+                  <li class="list-inline-item">&bull; <b>Bootstrap</b></li>
+                  <li class="list-inline-item">&bull; <b>Bootstrap</b></li>
+                  <li class="list-inline-item">&bull; <b>Bootstrap</b></li>
+                  <li class="list-inline-item">&bull; <b>Bootstrap</b></li>
+                  <li class="list-inline-item">&bull; <b>Bootstrap</b></li>
+                </ul>
+              </div>
+              <div class="justify-content-end">
+                <a class="custom-btn-solid shadow-sm px-3">
+                  <i class="far fa-eye mr-2"></i>
+                  See the project
+                </a>
+                <a class="custom-btn ml-3 px-3">
+                  <i class="fas fa-code mr-2"></i>
+                  Link to code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project d-flex my-5">
+            <div class="project-content d-flex flex-column mr-5">
+              <h2>Project Title</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                exercitationem debitis maxime aut officiis voluptatem velit ab
+                corporis, sit dolorum rerum, doloremque omnis qui, deleniti
+                accusantium laborum veritatis beatae a!
+              </p>
+              <div class="mt-2">
+                <h4>Builded With:</h4>
+                <ul class="list-inline mt-2">
+                  <li class="list-inline-item">&bull; <b>React</b></li>
+                  <li class="list-inline-item">&bull; <b>Node Js</b></li>
+                  <li class="list-inline-item">&bull; <b>Bootstrap</b></li>
+                  <li class="list-inline-item">
+                    &bull; <b>Managed with Trello</b>
+                  </li>
+                  <li class="list-inline-item">&bull; <b>Bootstrap</b></li>
+                  <li class="list-inline-item">&bull; <b>Bootstrap</b></li>
+                  <li class="list-inline-item">&bull; <b>Bootstrap</b></li>
+                  <li class="list-inline-item">&bull; <b>Bootstrap</b></li>
+                  <li class="list-inline-item">&bull; <b>Bootstrap</b></li>
+                </ul>
+              </div>
+              <div class="justify-content-end">
+                <a class="custom-btn-solid px-3">
+                  <i class="far fa-eye mr-2"></i>
+                  See the project
+                </a>
+                <a class="custom-btn ml-3 px-3">
+                  <i class="fas fa-code mr-2"></i>
+                  Link to code
+                </a>
+              </div>
+            </div>
+            <img
+              src="./assets/gif/phrase-hunter.gif"
+              alt="poject"
+              width="500px"
+              class="shadow"
+            />
+          </div>
+
+          <div class="project d-flex my-5">
+            <img
+              src="./assets/gif/spp.gif"
+              width="500px"
+              alt="poject"
+              class="shadow"
+            />
+            <div class="project-content d-flex flex-column ml-5">
+              <h2>Project Title</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                exercitationem debitis maxime aut officiis voluptatem velit ab
+                corporis, sit dolorum rerum, doloremque omnis qui, deleniti
+                accusantium laborum veritatis beatae a!
+              </p>
+              <div class="mt-2">
+                <h4>Builded With:</h4>
+                <ul class="list-inline mt-2">
+                  <li class="list-inline-item">&bull; <b>React</b></li>
+                  <li class="list-inline-item">&bull; <b>Node Js</b></li>
+                  <li class="list-inline-item">&bull; <b>Bootstrap</b></li>
+                  <li class="list-inline-item">
+                    &bull; <b>Managed with Trello</b>
+                  </li>
+                  <li class="list-inline-item">&bull; <b>Bootstrap</b></li>
+                  <li class="list-inline-item">&bull; <b>Bootstrap</b></li>
+                  <li class="list-inline-item">&bull; <b>Bootstrap</b></li>
+                  <li class="list-inline-item">&bull; <b>Bootstrap</b></li>
+                  <li class="list-inline-item">&bull; <b>Bootstrap</b></li>
+                </ul>
+              </div>
+              <div class="justify-content-end">
+                <a class="custom-btn-solid px-3">
+                  <i class="far fa-eye mr-2"></i>
+                  See the project
+                </a>
+                <a class="custom-btn ml-3 px-3">
+                  <i class="fas fa-code mr-2"></i>
+                  Link to code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="wave-container3">
+        <div style="height: 150px; overflow: hidden;">
+          <svg
+            viewBox="0 0 500 150"
+            preserveAspectRatio="none"
+            style="height: 100%; width: 100%;"
+          >
+            <path
+              d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+              style="stroke: none; fill: #fff;"
+            ></path>
+          </svg>
+        </div>
+      </div>
+
+      <section id="about" class="about mb-5">
+        <h2 class="">About Me</h2>
+        <div class="mt-4">
+          <p class="">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis
+            expedita unde earum itaque architecto, maxime totam vitae ut
+            eligendi dignissimos quibusdam laborum autem rerum. Nostrum quidem
+            ullam explicabo nulla quisquam. Lorem ipsum dolor, sit amet
+            consectetur adipisicing elit. Nobis expedita unde earum itaque
+            architecto, maxime totam vitae ut eligendi dignissimos quibusdam
+            laborum autem rerum. Nostrum quidem ullam explicabo nulla quisquam.
+          </p>
+          <div class="mt-5">
+            <h3>I'm...</h3>
+            <div class="row mt-4">
+              <div class="col-4">
+                <h4 class=""><i class="fas fa-heart mr-3"></i>Passionate</h4>
+                <p class="">
+                  I enjoy contributing to projects that make a difference. I
+                  enjoy helping others create success.
+                </p>
+              </div>
+              <div class="col-4">
+                <h4 class=""><i class="fas fa-users mr-3"></i>Team worker</h4>
+                <p class="">
+                  At the heart of every successful business is a problem solver.
+                  Im allway I thrive under pressure and in fast-paced
+                  environments.
+                </p>
+              </div>
+              <div class="col-4">
+                <h4 class=""><i class="fas fa-bolt mr-3"></i>Fast learner</h4>
+                <p class="">
+                  I can learn anything, just give me 5 minutes ;) I'm valuable
+                  to your company beacuse of my ability to be molded to your
+                  stack.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="wave-container2">
+        <div style="height: 150px; overflow: hidden;">
+          <svg
+            viewBox="0 0 500 150"
+            preserveAspectRatio="none"
+            style="height: 100%; width: 100%;"
+          >
+            <path
+              d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+              style="stroke: none; fill: #0099ff;"
+            ></path>
+          </svg>
+        </div>
+      </div>
+      <section id="contact" class="contact">
+        <h2 class="text-center">Let's work together!</h2>
+        <div class="d-flex flex-column align-items-center">
+          <a
+            href="mailto:rl.luisfe@gmail.com"
+            class="call-to-action custom-btn-solid shadow px-5 my-5"
+            id="email-btn"
+            target="blank"
+          >
+            <i class="fas fa-envelope mr-3"></i> Send me an Email!
+          </a>
+          <div class="d-flex flex-column secondary-call-to-action">
+            <a
+              href="https://drive.google.com/file/d/1n4JG6WOs7ZHruusBnR5oG4blEeYnkoEs/view?usp=sharing"
+              target="blank"
+              title="Resume"
+              class="custom-btn my-3 px-5"
+            >
+              <i class="fas fa-file-alt mr-2"></i> Read My resume
+            </a>
+            <a
+              href="https://www.linkedin.com/in/luis-felipe-romero/"
+              target="blank"
+              title="LinkedIn"
+              class="custom-btn my-3 px-5"
+            >
+              <i class="fab fa-linkedin mr-2"></i> Connect on LinkedIn
+            </a>
+            <a
+              href="https://github.com/luisferomero"
+              target="blank"
+              title="Git Hub"
+              class="custom-btn my-3 px-5"
+            >
+              <i class="fab fa-github mr-2"></i> Visit my Github
+            </a>
+          </div>
         </div>
       </section>
     </main>
   </body>
+  <footer class="d-flex align-items-end">
+    <div class="mb-2">
+      <p>
+        Copyright © 2020 Luis Romero
+      </p>
+    </div>
+  </footer>
 </html>
