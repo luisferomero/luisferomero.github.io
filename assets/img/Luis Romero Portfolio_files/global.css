@@ -38,24 +38,6 @@ nav a:hover {
   text-shadow: 0 0 15px #ffffff;
 }
 
-.call-to-action-menu-link {
-  display: inline-block;
-  color: #fff;
-  font-weight: 300;
-  text-decoration: none;
-  border: 1px solid #fff;
-  border-radius: 30px;
-  text-align: center;
-  padding: 0 25px;
-}
-
-.call-to-action-menu-link:hover {
-  color: #0099ff !important;
-  background-color: #fff;
-  cursor: pointer;
-  text-decoration: none;
-}
-
 header {
   background: #0099ff;
   background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
@@ -224,32 +206,11 @@ img {
   color: #0099ff !important;
   background-color: #fff;
   cursor: pointer;
-  text-decoration: none;
-}
-
-.custom-btn-solid {
-  display: inline-block;
-  color: #0099ff !important;
-  font-weight: 300;
-  background-color: #fff;
-  text-decoration: none;
-  margin-top: 30px;
-  border-radius: 30px;
-  min-width: 150px;
-  text-align: center;
-  padding: 10px 0;
-  /* animation: moveBottomToUp 1s ease-in; */
-}
-
-.custom-btn-solid:hover {
-  cursor: pointer;
-  animation: pulse 0.5s;
-  text-decoration: none;
 }
 
 .about {
+  margin: 0 auto;
   padding: 0 10vw;
-  min-height: 450px;
 }
 
 .about h2 {
@@ -257,36 +218,6 @@ img {
   animation: moveBottomToUp 1s ease-in;
 }
 
-.contact {
-  background-color: #0099ff;
-  color: #fff;
-  margin: 0 auto;
-  padding: 0 10vw;
-}
-
-.contact h2 {
-  font-size: 45px;
-  animation: moveBottomToUp 1s ease-in;
-}
-
-.call-to-action {
-  width: 400px;
-  font-weight: bold;
-  font-size: large;
-}
-
-.secondary-call-to-action {
-  font-size: large;
-  font-weight: normal;
-}
-
-footer {
-  background-color: #0099ff;
-  color: #fff;
-  margin: 0 auto;
-  padding: 0 10vw;
-  min-height: 100px;
-}
 /* KEYFRAMES / ANIMATIONS */
 @keyframes moveLeftToRight {
   0% {
