@@ -4,31 +4,25 @@ html {
   scroll-behavior: smooth;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: "Open Sans", sans-serif;
 }
 
-nav {
+/* nav {
   position: fixed;
   top: 20px;
   left: 20px;
   margin-left: 5vw;
   width: 100%;
-}
+} */
 
-.nav-links {
+/* .nav-links {
   width: 30%;
   display: flex;
   justify-content: space-between;
-}
+} */
 
-.nav-links a {
+.menu-link {
   color: #fff;
   text-decoration: none;
   animation: moveLeftToRight 1s ease-in;
@@ -60,9 +54,9 @@ header {
   background: #0099ff;
   background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
   background: linear-gradient(to right, #3a7bd5, #00d2ff);
-  padding: 48px 0;
-  width: 100%;
-  height: 85vh;
+  /* padding: 48px 0;
+  width: 100%;*/
+  height: 75vh;
 }
 
 img {
@@ -71,27 +65,28 @@ img {
 
 .header-img {
   display: block;
-  height: 450px;
+  max-height: 450px;
   object-fit: cover;
 }
 
 .header-container {
-  max-width: 1200px;
-  display: flex;
+  /* max-width: 1200px; */
+  /* display: flex;
   justify-content: space-around;
   align-items: center;
   align-content: center;
-  margin: auto;
-  height: 90%;
+  margin: auto; */
+  /* height: 90%; */
 }
 
 .titles {
-  width: 50%;
+  /* width: 50%; */
+  padding: 0 10vw;
   color: #fff;
 }
 
 .titles h1 {
-  font-size: 80px;
+  font-size: 50px;
   animation: moveRightToleft 1s ease-in;
 }
 
@@ -110,10 +105,10 @@ img {
 }
 
 .brands-container {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-  margin-top: 40px;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* width: 50%; */
+  /* margin-top: 40px; */
   animation: moveBottomToUp 1s ease-in;
 }
 
@@ -169,17 +164,17 @@ img {
 }
 
 .logos {
-  margin-top: 5vh;
+  /* margin-top: 5vh;
   display: flex;
   flex-wrap: wrap;
-  justify-items: center;
+  justify-items: center; */
 }
 
 .logos img {
   object-fit: contain;
   width: 100px;
   height: 100px;
-  margin: 50px;
+  margin: 30px 30px;
 }
 
 .projects {
@@ -228,16 +223,15 @@ img {
 }
 
 .custom-btn-solid {
-  display: inline-block;
+  /* display: inline-block; */
   color: #0099ff !important;
   font-weight: 300;
   background-color: #fff;
-  text-decoration: none;
+  /* text-decoration: none; */
   margin-top: 30px;
   border-radius: 30px;
   min-width: 150px;
-  text-align: center;
-  padding: 10px 0;
+  /* text-align: center; */
   /* animation: moveBottomToUp 1s ease-in; */
 }
 
@@ -270,7 +264,7 @@ img {
 }
 
 .call-to-action {
-  width: 400px;
+  /* width: 400px; */
   font-weight: bold;
   font-size: large;
 }
