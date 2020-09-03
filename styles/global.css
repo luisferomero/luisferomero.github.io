@@ -29,23 +29,21 @@ body {
 }
 
 nav a:hover {
-  text-shadow: 0 0 15px #ffffff;
+  text-shadow: 0 0 15px #0099ff;
 }
 
 .call-to-action-menu-link {
-  display: inline-block;
-  color: #fff;
-  font-weight: 300;
+  color: #0099ff !important;
+  font-weight: 600;
   text-decoration: none;
-  border: 1px solid #fff;
+  /* border: 1px solid #0099ff; */
   border-radius: 30px;
   text-align: center;
-  padding: 0 25px;
 }
 
 .call-to-action-menu-link:hover {
   color: #0099ff !important;
-  background-color: #fff;
+  /* background-color: #fff; */
   cursor: pointer;
   text-decoration: none;
 }
@@ -64,29 +62,18 @@ img {
 }
 
 .header-img {
-  display: block;
-  max-height: 450px;
+  max-height: 425px;
   object-fit: cover;
-}
-
-.header-container {
-  /* max-width: 1200px; */
-  /* display: flex;
-  justify-content: space-around;
-  align-items: center;
-  align-content: center;
-  margin: auto; */
-  /* height: 90%; */
 }
 
 .titles {
   /* width: 50%; */
-  padding: 0 10vw;
+  /* padding: 0 10vw; */
   color: #fff;
 }
 
 .titles h1 {
-  font-size: 50px;
+  font-size: 80px;
   animation: moveRightToleft 1s ease-in;
 }
 
@@ -98,6 +85,7 @@ img {
 .font-awesome {
   font-size: 3em;
   color: #fff;
+  animation: moveRightToleft 0.8s ease-in;
 }
 
 .font-awesome:hover {
@@ -158,16 +146,13 @@ img {
   animation: animateWave 2s cubic-bezier(0.23, 1, 0.32, 1) forwards;
 }
 
+.skills {
+  /* padding: 0 10vw; */
+}
+
 .skills h2 {
   font-size: 45px;
   animation: moveBottomToUp 1s ease-in;
-}
-
-.logos {
-  /* margin-top: 5vh;
-  display: flex;
-  flex-wrap: wrap;
-  justify-items: center; */
 }
 
 .logos img {
@@ -181,7 +166,7 @@ img {
   background-color: #0099ff;
   color: #fff;
   margin: 0 auto;
-  padding: 0 10vw;
+  /* padding: 0 10vw; */
 }
 
 .projects h2 {
@@ -242,7 +227,7 @@ img {
 }
 
 .about {
-  padding: 0 10vw;
+  /* padding: 0 10vw; */
   min-height: 450px;
 }
 

@@ -95,7 +95,7 @@
   <body>
     <header>
       <nav>
-        <div class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="navbar fixed-top navbar-expand-md navbar-light bg-light">
           <button
             class="navbar-toggler"
             type="button"
@@ -122,35 +122,26 @@
                 <a class="nav-link" href="#about">About me </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact me!</a>
+                <a class="nav-link call-to-action-menu-link" href="#contact"
+                  >Contact me!</a
+                >
               </li>
             </ul>
           </div>
-          <!-- <a href="#" id="menu" class="menu-link" title="Home"> Home </a>
-          <a href="#skills" id="menu" class="menu-link" title="Skills">
-            Skills
-          </a>
-          <a href="#projects" id="menu" class="menu-link" title="Project">
-            Pojects
-          </a>
-          <a href="#about" id="menu" class="menu-link" title="About me">
-            About me
-          </a>
-          <a
-            href="#contact"
-            id="menu"
-            class="menu-link call-to-action-menu-link"
-            title="About me"
-          >
-            Contact me!
-          </a> -->
         </div>
       </nav>
-      <div class="header-container mt-5">
-        <div class="titles d-flex flex-column align-items-center">
+      <div
+        class="mt-5 h-100 d-flex flex-lg-row justify-content-center align-items-center"
+      >
+        <div
+          class="titles px-5 px-lg-1 d-flex flex-column align-items-center align-items-lg-start w-lg-25"
+          id="home"
+        >
           <h1 class="mt-5">Luis Romero</h1>
-          <h2 class="mt-5 text-center">Full-stack Software developer</h2>
-          <div class="brands-container mt-5 w-75 d-flex justify-content-around">
+          <h2 class="mt-5 mt-lg-3 text-center text-lg-left">
+            Full-stack Software developer
+          </h2>
+          <div class="mt-5 w-75 d-flex justify-content-between">
             <a
               href="https://www.linkedin.com/in/luis-felipe-romero/"
               target="blank"
@@ -180,33 +171,35 @@
             </a>
           </div>
         </div>
-        <img
-          class="header-img img-fluid d-none d-lg-block"
-          src="./assets/svg/undraw_web_developer_p3e5.svg"
-        />
+        <div class="mt-lg-5 ml-lg-5 w-lg-50">
+          <img
+            class="header-img d-none d-lg-block"
+            src="./assets/svg/undraw_web_developer_p3e5.svg"
+          />
+        </div>
       </div>
     </header>
 
     <div class="wave-container">
-      <div style="height: 150px; overflow: hidden;">
+      <div style="height: 150px; overflow: hidden">
         <svg
           viewBox="0 0 500 150"
           preserveAspectRatio="none"
-          style="height: 100%; width: 100%;"
+          style="height: 100%; width: 100%"
         >
           <path
             d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-            style="stroke: none; fill: #fff;"
+            style="stroke: none; fill: #fff"
           ></path>
         </svg>
       </div>
     </div>
 
     <main>
-      <section id="skills" class="skills">
-        <div class="d-flex flex-column align-items-center mx-3">
-          <h2 class="">Skills</h2>
-          <div class="logos d-flex flex-wrap">
+      <section id="skills" class="skills px-lg-5">
+        <div class="d-flex flex-column">
+          <h2 class="ml-lg-5 text-center text-lg-left">Skills</h2>
+          <div class="logos mx-lg-3 d-flex flex-wrap">
             <img
               src="./assets/img/csharp_logo.png"
               alt="C#"
@@ -324,23 +317,25 @@
       </section>
 
       <div class="wave-container2">
-        <div style="height: 150px; overflow: hidden;">
+        <div style="height: 150px; overflow: hidden">
           <svg
             viewBox="0 0 500 150"
             preserveAspectRatio="none"
-            style="height: 100%; width: 100%;"
+            style="height: 100%; width: 100%"
           >
             <path
               d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-              style="stroke: none; fill: #0099ff;"
+              style="stroke: none; fill: #0099ff"
             ></path>
           </svg>
         </div>
       </div>
 
-      <section id="projects" class="projects">
-        <h2>Projects Coming soon...</h2>
-        <div class="d-flex flex-column mt-4 ml-5">
+      <section id="projects" class="projects px-lg-5">
+        <h2 class="ml-lg-5 text-center text-lg-left">
+          Projects Coming soon...
+        </h2>
+        <div class="d-flex flex-column mt-4 mx-5">
           <!-- <div class="project d-flex my-5">
             <img
               src="./assets/gif/movie-flex.gif"
@@ -476,23 +471,23 @@
       </section>
 
       <div class="wave-container3">
-        <div style="height: 150px; overflow: hidden;">
+        <div style="height: 150px; overflow: hidden">
           <svg
             viewBox="0 0 500 150"
             preserveAspectRatio="none"
-            style="height: 100%; width: 100%;"
+            style="height: 100%; width: 100%"
           >
             <path
               d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-              style="stroke: none; fill: #fff;"
+              style="stroke: none; fill: #fff"
             ></path>
           </svg>
         </div>
       </div>
 
-      <section id="about" class="about mb-5">
-        <h2 class="">About Me</h2>
-        <div class="mt-4">
+      <section id="about" class="about mb-5 px-lg-5">
+        <h2 class="ml-lg-5 text-center text-lg-left">About Me</h2>
+        <div class="mt-4 mx-5">
           <p class="">
             I have been working as a software engineer for almost 4 years. I've
             worked in different teams and projects from all sizes using
@@ -508,25 +503,25 @@
           </p>
           <div class="mt-5">
             <h3>I'm...</h3>
-            <div class="mt-5">
-              <div class="">
-                <h4 class=""><i class="fas fa-heart mr-3"></i>Passionate</h4>
-                <p class="">
+            <div class="row">
+              <div class="mt-5 col-md">
+                <h4><i class="fas fa-heart mr-3"></i>Passionate</h4>
+                <p>
                   I enjoy contributing to projects that make a difference. I
                   enjoy helping others create success.
                 </p>
               </div>
-              <div class="mt-5">
-                <h4 class=""><i class="fas fa-users mr-3"></i>Team worker</h4>
-                <p class="">
+              <div class="mt-5 col-md">
+                <h4><i class="fas fa-users mr-3"></i>Team worker</h4>
+                <p>
                   At the heart of every successful business is a problem solver.
                   Im allway I thrive under pressure and in fast-paced
                   environments.
                 </p>
               </div>
-              <div class="mt-5">
-                <h4 class=""><i class="fas fa-bolt mr-3"></i>Fast learner</h4>
-                <p class="">
+              <div class="mt-5 col-md">
+                <h4><i class="fas fa-bolt mr-3"></i>Fast learner</h4>
+                <p>
                   I can learn anything, just give me 5 minutes ;) I'm valuable
                   to your company beacuse of my ability to be molded to your
                   stack.
@@ -538,15 +533,15 @@
       </section>
 
       <div class="wave-container2">
-        <div style="height: 150px; overflow: hidden;">
+        <div style="height: 150px; overflow: hidden">
           <svg
             viewBox="0 0 500 150"
             preserveAspectRatio="none"
-            style="height: 100%; width: 100%;"
+            style="height: 100%; width: 100%"
           >
             <path
               d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-              style="stroke: none; fill: #0099ff;"
+              style="stroke: none; fill: #0099ff"
             ></path>
           </svg>
         </div>
@@ -615,9 +610,7 @@
   </body>
   <footer class="d-flex align-items-end">
     <div class="mb-2">
-      <p>
-        Copyright © 2020 Luis Romero
-      </p>
+      <p>Copyright © 2020 Luis Romero</p>
     </div>
   </footer>
 </html>
